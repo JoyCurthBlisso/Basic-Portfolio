@@ -2,10 +2,10 @@
  * 
  **/
 
-* {
+/** {
   box-sizing: border-box;
   text-align: center;
-}
+}*/
 
 /*The entire content area is 960px wide.
 The main section content is 650px wide.
@@ -189,26 +189,27 @@ bio-image {
   /*margin-bottom: 10px;*/
   color: grey;  
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  float: left;
+
   width: 35%;
   height: 50px;
   text-align: left;
   margin-top: 50px; 
   border-top: 2px solid #777777;
+  float:left;
 
  }
 
 footer {
   padding: 20px;
-  margin-bottom: 20px;
-  margin-top: #eee;
+  /*margin-bottom: 20px;*/
+/*  margin-top: #eee;*/
   border-top-color: #eee
+  float:left;
   border-top-width: medium;
   color: #333;
   background:#666666;
   width: 100%;
   height:50px;
-  float: left;
   text-align: center;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: white;
